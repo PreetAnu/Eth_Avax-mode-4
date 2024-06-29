@@ -66,8 +66,8 @@ contract DegenToken is ERC20, ERC20Burnable, Ownable {
         totalTokenSupply -= amount;
     }
 }
-
 ```
+
 ## Author
 * ***Anupreet Kaur***
 * anupreetk159@gmail.com
