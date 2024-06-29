@@ -18,8 +18,8 @@ DegenToken is an ERC20 token designed for Degen Gaming on the Avalanche network.
 -Chain ID: 43113
 -Currency Symbol: AVAX
 -Block Explorer URL: https://testnet.snowtrace.io
-3. Get Testnet AVAX:Go to the Avalanche Fuji Faucet and request AVAX for your MetaMask wallet.
-4. Deploy the Contract Using Remix:
+2. Get Testnet AVAX:Go to the Avalanche Fuji Faucet and request AVAX for your MetaMask wallet.
+3. Deploy the Contract Using Remix:
 * Open Remix IDE.
 * Create a new file named DegenToken.sol.
 * Click on the "Solidity Compiler" tab.
@@ -27,9 +27,6 @@ DegenToken is an ERC20 token designed for Degen Gaming on the Avalanche network.
 * Click on the "Deploy & Run Transactions" tab.
 * In the "Environment" dropdown, select "Injected Web3".
 * Ensure MetaMask is connected to the Avalanche Fuji C-Chain network.
-* In the "Contract" dropdown, select DegenToken.
-* Enter the initial owner's address as the constructor argument.
-* Click "Transact" to deploy the contract and confirm the transaction in MetaMask.
 4. Verify the Contract on Snowtrace:
 * Go to Snowtrace Testnet.
 * Find your contract using the contract address provided after deployment.
