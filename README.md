@@ -21,8 +21,8 @@ DegenToken is an ERC20 token designed for Degen Gaming on the Avalanche network.
 3. Get Testnet AVAX:Go to the Avalanche Fuji Faucet and request AVAX for your MetaMask wallet.
 4. Deploy the Contract Using Remix:
 * Open Remix IDE.
-* Create a new file named DegenToken.sol.Copy and paste the contract code into the file.
-* Click on the "Solidity Compiler" tab and select the appropriate compiler version (0.8.20).
+* Create a new file named DegenToken.sol.
+* Click on the "Solidity Compiler" tab.
 * Click "Compile DegenToken.sol".
 * Click on the "Deploy & Run Transactions" tab.
 * In the "Environment" dropdown, select "Injected Web3".
@@ -35,12 +35,15 @@ DegenToken is an ERC20 token designed for Degen Gaming on the Avalanche network.
 * Find your contract using the contract address provided after deployment.
 * Click "Verify & Publish" and follow the instructions to verify your contract.
   ### Contract Code
+  
   ```
-  // SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
+
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
+
 contract DegenToken is ERC20, ERC20Burnable, Ownable {
     uint public totalTokenSupply;
     constructor(address initialOwner) ERC20("Degen", "DGN") Ownable(initialOwner) {
@@ -66,10 +69,11 @@ contract DegenToken is ERC20, ERC20Burnable, Ownable {
         totalTokenSupply -= amount;
     }
 }
-```
 
+```
 ## Author
-**Anupreet Kaur **
+* ***Anupreet Kaur***
+* anupreetk159@gmail.com
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
