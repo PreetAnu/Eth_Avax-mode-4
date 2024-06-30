@@ -87,7 +87,7 @@ contract DegenToken is ERC20, ERC20Burnable, Ownable {
 }
 ```
 ### Author
-*** Anupreet Kaur***
-anupreetk159@gmail.com
+* *** Anupreet Kaur***
+* anupreetk159@gmail.com
 ### Licence
 This project is licensed under the MIT License - see the LICENSE.md file for details.
